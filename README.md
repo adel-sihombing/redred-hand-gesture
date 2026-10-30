@@ -23,14 +23,7 @@ There are two main gestures:
 
 - 🖐️ **RED RED** — Hold up both hands as open palms facing the camera. The screen turns red at 50% transparency and a large `RED RED` label appears in the center.
 - 🤘 **GREEN GREEN** — Make the metal (rock) sign with both hands. The screen turns green at 50% transparency with a large `GREEN GREEN` label.
-
-## Concept
-
-The project connects simple hand gestures with the **RED / GREEN** visual concept from the inspiration.
-
-> REDRED ❤️  
-> A small project inspired by music, creativity, and computer vision.
-
+  
 ## How It Works
 
 - MediaPipe HandLandmarker, a pre-trained model, detects **21 landmarks per hand** in each frame.
@@ -41,21 +34,6 @@ The project connects simple hand gestures with the **RED / GREEN** visual concep
 While the hands are being tracked, they are displayed on screen as a neon-green skeleton with yellow joints.
 
 Press **ESC** or **q** at any time to quit.
-
-## Built With
-- Python
-- OpenCV
-- MediaPipe
-- NumPy
-
-## Requirements
-- Python 3.11 or later
-- A webcam
-- Packages listed in `requirements.txt`:
-  - `mediapipe`
-  - `opencv-contrib-python`
-  - `numpy`
-- The `hand_landmarker.task` model file
   
 ### Option A — Using uv
 
