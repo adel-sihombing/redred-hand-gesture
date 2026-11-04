@@ -34,9 +34,3 @@ There are two main gestures:
 While the hands are being tracked, they are displayed on screen as a neon-green skeleton with yellow joints.
 
 Press **ESC** or **q** at any time to quit.
-  
-### Option A — Using uv
-
-```bash
-uv venv
-uv pip install -r requirements.txt
